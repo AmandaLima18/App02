@@ -1,0 +1,28 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "joca da silva",
+      "email": "joca@silva.com",
+      "senha": "Qwerty"
+    },
+    {
+      "id": "2",
+      "nome": "Setembrina Trocatapas",
+      "email": "set@brina.com",
+      "senha": "12345"
+    },
+    {
+      "id": "3",
+      "nome": "Sirineuza Siriliano",
+      "email": "siri@siri.com",
+      "senha": "1234"
+    },
+    {
+      "nome": "Marineuza da silva",
+      "email": "mari@neuza.com",
+      "senha": "1234",
+      "id": "Gzies1w"
+    }
+  ]
+}

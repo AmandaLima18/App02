@@ -1,0 +1,43 @@
+<ion-app>
+  <ion-split-pane contentId="main-content">
+    <ion-menu contentId="main-content" type="overlay" side="end">
+      <ion-content>
+        <ion-list id="inbox-list">
+          <ion-list-header>Game Cadastro</ion-list-header>
+
+          <ion-menu-toggle auto-hide="false">
+            <ion-item routerDirection="root" routerLink="/home" lines="none" detail="false" routerLinkActive="selected">
+              <ion-icon slot="start" name="home"></ion-icon>
+              <ion-label>Meus Games</ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+
+          <ion-menu-toggle auto-hide="false" >
+            <ion-item routerDirection="root" routerLink="/new" lines="none" detail="false" routerLinkActive="selected">
+              <ion-icon slot="start" name="add-circle"></ion-icon>
+              <ion-label>Novo Game</ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+
+          <ion-menu-toggle auto-hide="false" >
+            <ion-item routerDirection="root" routerLink="/contacts" lines="none" detail="false" routerLinkActive="selected">
+              <ion-icon slot="start" name="chatbubbles"></ion-icon>
+              <ion-label>Faça Contato</ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+
+          <ion-menu-toggle auto-hide="false" >
+            <ion-item routerDirection="root" routerLink="/about" lines="none" detail="false" routerLinkActive="selected">
+              <ion-icon slot="start" name="information-circle"></ion-icon>
+              <ion-label>Sobre</ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+
+
+
+        </ion-list>
+      </ion-content>
+    </ion-menu>
+    <ion-router-outlet id="main-content"></ion-router-outlet>
+  </ion-split-pane>
+</ion-app>
