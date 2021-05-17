@@ -1,0 +1,65 @@
+DESENVOLVIMENTO DE APP MOBILE
+Instrutor André Ataíde
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+	• Google Meet: https://meet.google.com/zke-xogt-dfk
+
+DICAS DE PREPARAÇÃO DO AMBIENTE:
+
+ • Crie "Áreas de trabalho virtuais" para facilitar a gestão do PC;
+	
+	• [Ctrl] + [WIN] + [D]  --> Cria uma nova área de trabalho virtual;
+	• [Ctrl] + [WIN] + [>]  --> Acessa a próxima área de trabalho virtual;
+	• [Ctrl] + [WIN] + [<]  --> Acessa a área de trabalho virtual anterior;
+	• Ícone ao lado do Cortana (Visão de Tarefas) --> Gerencia áreas de trabalho.
+	
+ • Sugestão de organização das áreas de trabalho:
+ 
+	• MONITOR 1 --> 2 x "Node.js command prompt" abertos;
+		
+		• No primeiro, rode o app --> ionic serve;
+		• Deixe o segundo reservado para comandos;
+		
+	• MONITOR 2 --> Aplicativo aberto no Google Chrome, em modo mobile;
+		
+		• Ative o modo desenvoledor, teclandl [F12];
+	
+	• MONITOR 3 --> Visual Studio Code com diretório do aplicativo aberto;
+	
+	• MONITOR 4 --> "GitHub Desktop" ou console do Git (Git Bash);
+	
+		• Aproveite e crie um novo "branch" para esta aula;
+		
+	• MONITOR 5 --> "Notepad++" com pasta do aplicativo do instrutor aberta;
+	
+		• Caminho da pasta do instrutor: \\10.144.111.34\luferat\mobile\app01
+		  * Este caminho pode mudar em outras aulas. Veja com o instrutor.
+		  
+
+
+OBTENDO APLICATIVOS DE TERCEIROS EM IONIC/ANGULAR:
+
+ 1• Baixar todas as pastas e arquivos, exceto "node_modules" e ".git";
+ 2• Executar, na pasta do aplicativo o comando "npm install".
+
+Dica: Ative, no "Windows Explorer" a visualização de extensões de arquivos e de "itens ocultos".
+
+Menu "Exibir" --> [v] Extensões de nomes de arquivos
+Menu "Exibir" --> [v] Itens ocultos
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Atividades:
+
+	ionic generate page pages/home
+	ionic generate page pages/news
+	ionic generate page pages/contacts
+	ionic generate page pages/about
+	ionic generate page pages/e404
+	
+	
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ACESSO À SERVIÇOS:
+
+	• Angular Fire -> https://github.com/angular/angularfire

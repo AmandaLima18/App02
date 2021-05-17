@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "email": "john@tics.com",
+      "password": "$2a$10$ZjWa92DZUfuMommYaCnnsOcyJPqwol4SOkF3sMRcdWkFeoN0cRZZW",
+      "name": "Johnathan Tatics",
+      "id": 1
+    },
+    {
+      "email": "joca@silva.com",
+      "password": "$2a$10$3RRxDGM6mijhdA9GESk92.6VEmsvyJzqwUW/rTk3gdlTHf0AMB1wK",
+      "name": "Joca da Silva",
+      "id": 2
+    }
+  ]
+}

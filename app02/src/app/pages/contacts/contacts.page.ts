@@ -41,6 +41,7 @@ export class ContactsPage implements OnInit {
 
     // Cria os campos do formulário
     this.contactFormCreate();
+    
   }
 
   // Cria os campos do formulário
@@ -72,7 +73,7 @@ export class ContactsPage implements OnInit {
           Validators.email,         // Deve ser um e-mail válido
           removeSpaces              // Remove espaços duplicados
         ])
-      ],
+      ], 
 
       // Assunto do contato (subject)
       subject: [                    // Nome do campo
@@ -104,6 +105,7 @@ export class ContactsPage implements OnInit {
       this.pipe.transform(Date.now(), 'yyyy-MM-dd HH:mm:ss')
     );
 
+    // Salvar dados na API REST...
     this.feedback();
 
     return false;
@@ -112,21 +114,26 @@ export class ContactsPage implements OnInit {
   // Popup de feedback
   async feedback() {
 
+    // Obtém somente primeiro nome do remetente
     var name = this.contactForm.controls.name.value.split(' ');
 
-
     const alert = await this.alert.create({
-      header: `Olá ${this.contactForm.controls.name.value}!`,
+      header: `Olá ${name[0]}!`,
       message: 'Seu contato foi enviado com sucesso para a equipe do aplicativo.',
       buttons : [
 
-        // Botão [Ok]~
+        // Botão [Ok]
         {
           text: 'Ok',
           handler: () => {
 
             // Reset do formulário
-            this.contactForm.reset();
+            this.contactForm.reset({
+
+              // Mantém o nome e e-mail do rementente
+              name: this.contactForm.controls.name.value,
+              email: this.contactForm.controls.email.value
+            });
           }
         }
       ]
