@@ -34,38 +34,17 @@ export class HomePage implements OnInit {
     this.order = this.activatedRoute.snapshot.paramMap.get('order');
 
     // Obtem todos os documentos da API
-    this.http.get(this.apiURL + `games?_sort=${this.sort}&_order=${this.order}&status=ativo`)
+    this.http.get(
+      this.apiURL 
+      + `games?_expand=medias&_expand=platforms&_expand=types&_sort=${this.sort}&_order=${this.order}`)
       .subscribe(
         (res: any) => {
-
-          // Obtém cada documento de games
-          res.forEach(
-            (item: any, key: number) => {
-
-              // Obtém a plataforma do game
-              this.http.get(this.apiURL + 'platforms/' + item.platform)
-                .subscribe(
-                  (platformData: any) => {
-                    res[key]['platformName'] = platformData.name;
-                  }
-                );
-
-              // Obtém o tipo do game
-              this.http.get(this.apiURL + 'types/' + item.type)
-                .subscribe(
-                  (typeData: any) => {
-                    res[key]['typeName'] = typeData.name;
-                  }
-                );
-            }
-          );
 
           // Prepara dados para a view (HTML)
           this.data = res;
         }
       );
   }
-
 
   // Seleciona o campo de ordenação e a ordem (asc, desc)
   reOrder(order: string) {
