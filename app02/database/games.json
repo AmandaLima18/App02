@@ -25,13 +25,13 @@
     {
       "id": "3",
       "date": "2021-05-12 11:45:00",
-      "cover": "https://rubberchickengames.com/wp-content/uploads/2013/03/crysis-3-xbox-3601.jpg",
+      "status": "true",
       "title": "Crysis 3",
+      "cover": "https://rubberchickengames.com/wp-content/uploads/2013/03/crysis-3-xbox-3601.jpg",
       "mediasId": "1",
       "platformsId": "5",
-      "typesId": "7",
-      "description": "Shooter de alto nível com excelente qualidade gráfica e jogabilidade.",
-      "status": "true"
+      "typesId": "6",
+      "description": "Shooter de alto nível com excelente qualidade gráfica e jogabilidade."
     },
     {
       "id": "4",
@@ -54,6 +54,17 @@
       "typesId": "7",
       "description": "RPG  com gráficos de boa qualidade e um mundo gigantesco.",
       "id": "9AKtusB"
+    },
+    {
+      "date": "2021-05-19T16:30:18.582-03:00",
+      "status": "true",
+      "title": "pacman",
+      "cover": "http://upload.wikimedia.org/wikipedia/en/2/2d/Pac-Man_Vs._Coverart.png",
+      "mediasId": "1",
+      "platformsId": "2",
+      "typesId": "4",
+      "description": "cxvz vz vsdsd adf dsaf ",
+      "id": "PysKE5J"
     }
   ],
   "platforms": [
@@ -98,5 +109,67 @@
       "name": "Cartucho"
     }
   ],
-  "contacts": []
+  "contacts": [
+    {
+      "date": "2021-05-21 14:26:08",
+      "status": "Enviado",
+      "name": "Joca da Silva",
+      "email": "joca@silva",
+      "subject": "Teste",
+      "message": "teste teste teste teste teste teste teste teste testes",
+      "id": 1
+    },
+    {
+      "date": "2021-05-21 14:27:07",
+      "status": null,
+      "name": "Joca da Silva",
+      "email": "joca@silva",
+      "subject": "Teste 2",
+      "message": "Teste 2. Teste 2. Teste 2. Teste 2. Teste 2. Teste 2. Teste 2. Teste 2. Teste 2. \n\n\nTeste 2. Teste 2. Teste 2. Teste 2. Teste 2. Teste 2. Teste 2. Teste 2. Teste 2. Teste 2. Teste 2. Teste 2. Teste 2. Teste 2. Teste 2. \n\n\nTeste 2. Teste 2. Teste 2. Teste 2. Teste 2. Teste 2. Teste 2. Teste 2. Teste 2. ",
+      "id": 2
+    },
+    {
+      "date": "2021-05-21 16:10:28",
+      "status": "Enviado",
+      "name": "jsdfdsf",
+      "email": "sdfsdf@asdfsdf",
+      "subject": "sdfasdfdsaf",
+      "message": "asdfsdafsdaf",
+      "id": 3
+    }
+  ],
+  "abouts": [
+    {
+      "id": "1",
+      "title": "Sobre o Aplicativo",
+      "icon": "apps",
+      "summary": "Saiba por que este aplicativo foi criado o que você pode fazer com ele.",
+      "text": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, dolorum? Suscipit qui soluta atque doloremque dolor aliquam aliquid rerum quidem sed illo alias officia dolorum deserunt numquam voluptatem, quibusdam consectetur.</p><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab sapiente mollitia omnis qui accusantium dignissimos id incidunt quas placeat minus! Esse incidunt dolore nostrum, voluptatibus soluta eos quas quaerat sint?</p>",
+      "status": "true"
+    },
+    {
+      "id": "2",
+      "title": "Sobre o Autor",
+      "icon": "person",
+      "summary": "Saiba quem fez este aplicativo.",
+      "text": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, dolorum? Suscipit qui soluta atque doloremque dolor aliquam aliquid rerum quidem sed illo alias officia dolorum deserunt numquam voluptatem, quibusdam consectetur.</p><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab sapiente mollitia omnis qui accusantium dignissimos id incidunt quas placeat minus! Esse incidunt dolore nostrum, voluptatibus soluta eos quas quaerat sint?</p>",
+      "status": "false"
+    },
+    {
+      "id": "3",
+      "title": "Sobre o Cookies",
+      "icon": "at-circle",
+      "summary": "Como funcionam os biscoitos da Intenet.",
+      "text": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, dolorum? Suscipit qui soluta atque doloremque dolor aliquam aliquid rerum quidem sed illo alias officia dolorum deserunt numquam voluptatem, quibusdam consectetur.</p><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab sapiente mollitia omnis qui accusantium dignissimos id incidunt quas placeat minus! Esse incidunt dolore nostrum, voluptatibus soluta eos quas quaerat sint?</p>",
+      "status": "true"
+    },
+    {
+      "id": "4",
+      "title": "Políticas de Privacidade",
+      "icon": "document-lock",
+      "summary": "Como cuidamos dos seus dados pessoais.",
+      "text": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, dolorum? Suscipit qui soluta atque doloremque dolor aliquam aliquid rerum quidem sed illo alias officia dolorum deserunt numquam voluptatem, quibusdam consectetur.</p><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab sapiente mollitia omnis qui accusantium dignissimos id incidunt quas placeat minus! Esse incidunt dolore nostrum, voluptatibus soluta eos quas quaerat sint?</p>",
+      "status": "true"
+    }
+  ]
 }

@@ -35,6 +35,18 @@ const routes: Routes = [
     path: 'edit/:id',
     loadChildren: () => import('./pages/edit/edit.module').then( m => m.EditPageModule)
   },
+  {
+    path: 'dev/home',
+    loadChildren: () => import('./dev/home/home.module').then( m => m.HomePageModule)
+  },
+  {
+    path: 'dev/gps',
+    loadChildren: () => import('./dev/gps/gps.module').then( m => m.GpsPageModule)
+  },
+  {
+    path: 'aboutview/:id',
+    loadChildren: () => import('./pages/aboutview/aboutview.module').then( m => m.AboutviewPageModule)
+  },
 
   // SEMPRE A ÚLTIMA ROTA
   {

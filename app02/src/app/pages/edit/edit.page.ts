@@ -83,10 +83,10 @@ export class EditPage implements OnInit {
           this.editForm.controls.title.setValue(res.title);
           this.editForm.controls.cover.setValue(res.cover);
           this.editForm.controls.date.setValue(res.date);
-          this.editForm.controls.type.setValue(res.typesId);
-          this.editForm.controls.platform.setValue(res.platformsId);
+          this.editForm.controls.typesId.setValue(res.typesId);
+          this.editForm.controls.platformsId.setValue(res.platformsId);
           this.editForm.controls.description.setValue(res.description);
-          this.editForm.controls.media.setValue(res.mediasId);
+          this.editForm.controls.mediasId.setValue(res.mediasId);
           this.editForm.controls.status.setValue(res.status);
 
         },
@@ -186,7 +186,7 @@ export class EditPage implements OnInit {
         {
           text: 'Ok',
           handler: () => {
-            
+
             // Reset do formulário
             this.editForm.reset();
 
